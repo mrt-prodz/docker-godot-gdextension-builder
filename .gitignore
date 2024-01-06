@@ -1,0 +1,10 @@
+.gitattributes
+.sconsign.dblite
+godot-cpp
+demo/bin/*.dll
+demo/bin/*.so
+demo/icon.*
+demo/*.tscn
+demo/*.godot
+src/gdexample.os
+src/register_types.os

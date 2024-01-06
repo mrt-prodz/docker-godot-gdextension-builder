@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  builder:
+    build: .
+    image: mrt-prodz/godot-gdextension-builder:latest
