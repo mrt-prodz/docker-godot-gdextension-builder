@@ -92,9 +92,9 @@ Create a new `2D Scene`, press `CTRL + a` then add a `GDExample` Node. You shoul
 
 [<img src="./screenshots/04.png" width="400"/>](./screenshots/04.png)
 
-# Note
+## Note
 
-This repository was made to help people getting started with Godot GDExtension C++ development without cluttering their operating system with various packages and softwares.
+This repository was made to help people get started with Godot GDExtension C++ development without cluttering their operating system with various packages and softwares.
 
 We use Godot 4.2 stable branch but if you would like to use a more recent version you will have to change `4.2` with another branch when cloning the `godot-cpp` repository.
 
@@ -102,6 +102,6 @@ Simply change the version in the `git clone -b 4.x https://github.com/godotengin
 
 The GDExtension example in this repository is coming from the Godot 4.2 documentation. There is no `Engine.is_editor_hint()` check in the process method in order to avoid running the code inside the Godot editor. Keep this in mind if you start experimenting with heavy calculations to avoid crashing the editor.
 
-# Resources
+## Resources
 
 [GDExtension C++ example](https://docs.godotengine.org/en/4.2/tutorials/scripting/gdextension/gdextension_cpp_example.html)
